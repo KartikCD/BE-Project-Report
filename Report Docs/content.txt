@@ -1,0 +1,10 @@
+Since there are many branches of ASHA's in various states which performs same activities and they faced some problems. IN the state of Uttar Pradesh, ASHA's used to keep the record of Maaternal Mortality Rate and New born babies using The smart ASHA pregnancy monitoring system. They digitalized the work and used to monitor the pregnancies and ensures that the women atleast visits 4 times to a health care centre to ensure safe and healthy pregnancy. But there wasn't any automated service which notifies the ASHA's about the upcoming emergency.
+
+So the ASHA's in state of Gujarat came up with mHealth App which used to automatically notify the ASHA's about the women maternal condition and app also took feedback from workers on app's performance and efficiency. But this wasn't enough
+
+They only focused on maternal mortality rate and new borns and negleccting other important issues such as the family planning methods used by the couples. SO there is one field named "para". Para represents the number of times the women is pregnant. If para is 3 or more than 3 then it is denoted as high risk and ASHAs insist couples to use some family planning methods and whether the new born babies are properly vaccinated by all the vaccines, also about other family members whether they have any disease, disability, etc. So overcome these problems we proposed Aarogya Patrika. 
+
+So software consists of server client application and database. We have here used MongoDB database for storing data and aggregations are performed to get proper analytical data. Since ASHA programs are conducted on rural areas so there are chances that they wont be able to efficiently use app and website to we tried to create as simple UI as possible so they dont get into some technical problem. And server is deployed on heroku as it is free opensource and easy to deploy.
+
+
+
